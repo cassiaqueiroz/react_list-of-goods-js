@@ -95,7 +95,7 @@ export const App = () => {
             }}
             type="button"
             className={cn('button', 'is-danger', {
-              'is-light': sortField === '' && !isReversed,
+              'is-light': !isReversed,
             })}
           >
             Reset
